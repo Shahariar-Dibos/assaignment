@@ -1,0 +1,108 @@
+body{
+    font-family: 'Teko', sans-serif;
+    margin: 0;
+}
+
+
+.Burger-color{
+    background: -webkit-linear-gradient(rgb(255, 125, 4), rgb(255, 224, 50));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.width img{
+    width: 60%;
+    padding-top: 30px;
+    position: relative;
+    left: 20%;
+
+}
+
+.width{
+    width: 50%;
+    padding-left:5%;
+    line-height: 60%;
+    
+    
+}
+
+.first-body{
+    display: flex;
+    margin-bottom: 120px;
+}
+
+h1{
+    font-size: 90px;
+}
+h2{
+    font-size: 40px;
+}
+
+.first-text{
+    padding-top: 4%;
+}
+
+
+
+.order-button{
+    
+    text-decoration: none;
+    background: linear-gradient(45deg, rgb(255, 145, 0), rgb(255, 230, 4));
+    padding: 10px 30px;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.delivery-body{
+    width: 50%;
+    padding-right:2%;
+    line-height: 450%;
+
+}
+
+.delivery-body img{
+    width: 60%;
+    margin-left: 9%;
+    padding:0;
+    border-radius: 10%;
+    
+}
+
+.sec-body{
+    display: flex;
+    background-image:url(sec-bg.png) ;
+    
+}
+
+#white{
+    color: white;
+}
+
+.display{border: 1px solid;
+    box-shadow:10px 10px 40px rgba(128, 128, 128, 0.89) ;
+   border-radius: 5%;
+    margin: 3%;
+    height: 400px;
+    padding:5px;
+    margin-left: 5%;}
+
+    img{margin-left: 7px;
+        margin-top: 7px;
+        margin-right:7px;
+      border-radius:5%;}
+
+
+.third-body{
+    display: flex;
+}
+
+.forth-body{
+    display: flex;
+}
+
+.more{
+   text-decoration: none;
+   color: rgb(61, 61, 61);
+}
