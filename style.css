@@ -58,7 +58,7 @@ h2{
 .delivery-body{
     width: 50%;
     padding-right:2%;
-    line-height: 450%;
+    
 
 }
 
@@ -80,7 +80,7 @@ h2{
     color: white;
 }
 
-.display{border: 1px solid;
+.display{border: 0 solid;
     box-shadow:10px 10px 40px rgba(128, 128, 128, 0.89) ;
    border-radius: 5%;
     margin: 3%;
@@ -104,5 +104,14 @@ h2{
 
 .more{
    text-decoration: none;
-   color: rgb(61, 61, 61);
+   background: -webkit-linear-gradient(rgb(255, 125, 4), rgb(255, 224, 50));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+   
+}
+
+#text{
+    line-height:450%;
+    
 }
